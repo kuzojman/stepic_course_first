@@ -252,7 +252,7 @@ tours = {
 
 @app.route('/')
 def open_index_page():
-    return render_template('index.html',
+    return render_template('Index.html',
                            tours=tours,
                            title=title,
                            subtitle=subtitle,
